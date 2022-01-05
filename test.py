@@ -14,7 +14,10 @@ if __name__ =='__main__':
     ckpt=['ckpt.pth']
     Dirs=["/path/to/DUT-OMRON",
           "/path/to/ECSSD",
-          "/path/to/HKU-IS"]
+          "/path/to/HKU-IS",
+          "/path/to/DUTS-TE",
+          "/path/to/PASCAL-S",
+          "/path/to/SOD"]
     for m in ckpt:
         print(m)
         pretrained_dict = torch.load("./ckpt/"+m)

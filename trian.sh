@@ -1,1 +1,1 @@
-python -m torch.distributed.launch --nproc_per_node=8 train.py --path "/mnt/data1/rsc/DataSet/Saliency/DUTS/Train" --pretrain "./deit_base_distilled_patch16_384-d0272ac0.pth"
+python -m torch.distributed.launch --nproc_per_node=8 train.py --path "/path/to/DUTS/Train" --pretrain "./deit_base_distilled_patch16_384-d0272ac0.pth"
